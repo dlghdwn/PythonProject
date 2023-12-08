@@ -22,9 +22,6 @@ class TitleNode(Node):
         print(self.story)
         print()
         
-        
-    
-
 class StoryNode(Node): # 단일 흐름 스토리
     def __init__(self):
         super().__init__() #부모먼저 실행
