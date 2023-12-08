@@ -140,7 +140,7 @@ class StoryExcutor: #스토리 실행
         print("\n===== 우당당탕 크리스마스 소동 =====")
         print("팀 : 파이썬의 신")
         print("팀장 : 이홍주")
-        print("스토리 기획 : 박혜민")
+        print("스토리 기획 : 박혜민, 이홍주")
         print("게임 개발 : 이홍주")
         print("PPT : 강진영")
         
