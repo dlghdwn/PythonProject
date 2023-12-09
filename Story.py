@@ -109,10 +109,12 @@ class StoryExcutor: #스토리 실행
             print("Game Over...")
         elif(self.__head.endingType == "HAPPY ENDING"):
             print("Clear!")
+        elif(self.__head.endingType == "TRUE ENDING"):
+            print("Clear!")
         elif(self.__head.endingType == "HIDDEN ENDING"):
             print("Clear...?")
         else:
-            raise Exception("Ending Type은 BAD, HAPPY, HIDDEN 3가지 밖에 없습니다!")
+            raise Exception("Ending Type은 BAD, HAPPY, HIDDEN, TRUE 4가지 밖에 없습니다!")
               
         while True:
             try:
@@ -121,7 +123,7 @@ class StoryExcutor: #스토리 실행
                 if(play_again == 1):
                     # 다시하기 코드
                     print("\n 앗 다시 태어났다! \n")
-                    self.__head = self.__root
+                    self.__head = self.__title
                 elif(play_again == 2):
                     #나가기 코드
                     self.__endingScroll()
